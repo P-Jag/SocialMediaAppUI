@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_app_ui/data/data.dart';
+import 'package:social_media_app_ui/widgets/custom_drawer.dart';
 import 'package:social_media_app_ui/widgets/following_users.dart';
 import 'package:social_media_app_ui/widgets/posts_carousel.dart';
 
@@ -35,7 +36,6 @@ class _HomeScreenState extends State<HomeScreen>
             letterSpacing: 10.0,
           ),
         ),
-        leading: Icon(Icons.menu),
         bottom: TabBar(
           controller: _tabController,
           indicatorWeight: 3.0,
@@ -50,6 +50,7 @@ class _HomeScreenState extends State<HomeScreen>
           ],
         ),
       ),
+      drawer: CustomDrawer(),
       body: ListView(
         children: <Widget>[
           FollowingUsers(),
