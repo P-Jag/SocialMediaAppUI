@@ -8,8 +8,8 @@ final _post0 = Post(
   author: User(),
   title: 'Post 0',
   location: 'Location 0',
-  likes: 226,
-  comments: 189,
+  likes: 149,
+  comments: 87,
 );
 
 final _post1 = Post(
@@ -17,8 +17,8 @@ final _post1 = Post(
   author: User(),
   title: 'Post 1',
   location: 'Location 1',
-  likes: 226,
-  comments: 189,
+  likes: 345,
+  comments: 178,
 );
 
 final _post2 = Post(
@@ -26,8 +26,8 @@ final _post2 = Post(
   author: User(),
   title: 'Post 2',
   location: 'Location 2',
-  likes: 226,
-  comments: 189,
+  likes: 681,
+  comments: 99,
 );
 
 final _post3 = Post(
@@ -35,8 +35,8 @@ final _post3 = Post(
   author: User(),
   title: 'Post 3',
   location: 'Location 3',
-  likes: 226,
-  comments: 189,
+  likes: 286,
+  comments: 18,
 );
 
 final _post4 = Post(
@@ -44,8 +44,8 @@ final _post4 = Post(
   author: User(),
   title: 'Post 4',
   location: 'Location 4',
-  likes: 226,
-  comments: 189,
+  likes: 653,
+  comments: 449,
 );
 
 final _post5 = Post(
